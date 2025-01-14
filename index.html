@@ -8,10 +8,10 @@
 <body>
     <div id="content"></div>
     <script>
-        fetch("http://ci-swapi.herokapp.com/api/")
-        .then(response => response.text())
+        fetch("https://ci-swapi.herokapp.com/api/")
+        .then(reponse => reponse.text())
         .then(data => {
-            document.getElementById("contents").innerText = data;
+            document.getElementById("content").innerText = data;
         })
     </script>
 </body>
